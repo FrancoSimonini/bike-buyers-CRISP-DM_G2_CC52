@@ -36,6 +36,7 @@
 1. [Introducción](#data1)
 
 2. [Objetivos.](#data2)
+
     2.1. [Objetivos del Proyecto](#data21)
 
     2.2. [Objetivos Específicos](#data22)
@@ -45,14 +46,16 @@
 5. [Descripción](#data5)
 
 6. [Análisis del Dataset](#data6)
+
     6.1. [Cargar los datos](#data61)
+    
     6.2. [Inspección los datos](#data62)
+
     6.3. [Preprocesamiento](#data63)
+
     6.4. [Visualización e Interpretación](#data64)
 
 5. [Métodos a Utilizar](#data5)
-
-6. [Resolución del problema. A partir de los resultados obtenidos, ¿cuáles son las conclusiones? ¿Los resultados permiten responder al problema?](#data6)
 
 7. [Código](#data7)
 8. [Conclusiones](#data8)
