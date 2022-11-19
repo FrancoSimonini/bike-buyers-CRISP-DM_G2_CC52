@@ -1,9 +1,11 @@
 
 <div style="width: 100%; clear: both;">
 <div style="float: center; width: 50%;">
-<img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300", align="left">
+<img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300">
 </div>
 <div style="width:100%;">&nbsp;</div>
+<bar>
+<div></div>
 <center><h1>Práctica 2 - Limpieza y validación de los datos</h1></center>
 
 
