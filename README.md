@@ -48,19 +48,19 @@
 6. [Análisis del Dataset](#data6)
 
     6.1. [Cargar los datos](#data61)
-    
-    6.2. [Inspección los datos](#data62)
+
+    6.2. [Inspección de los datos](#data62)
 
     6.3. [Preprocesamiento](#data63)
 
     6.4. [Visualización e Interpretación](#data64)
 
-5. [Métodos a Utilizar](#data5)
+7. [Métodos a Utilizar](#data5)
 
-7. [Código](#data7)
-8. [Conclusiones](#data8)
-9. [Referencias](#data9)
-10. [Licencia de Uso](#refer)
+8. [Código](#data7)
+9. [Conclusiones](#data8)
+10. [Referencias](#data9)
+11. [Licencia de Uso](#refer)
 
 ## 1. Dataset <a name="data1"></a>
 *Descripción del dataset. ¿Por qué es importante y qué pregunta/problema pretende responder?*
