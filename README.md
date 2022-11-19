@@ -1092,6 +1092,6 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 ## 10. Referencias Bibliográficas<a name="refer"></a>
 ## 11. Licencia de Uso<a name="data11"></a>
 
-<h3>MIT - The MIT License</h3>
+### MIT LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
