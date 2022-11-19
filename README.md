@@ -15,12 +15,21 @@
     <br>
     Seccion - CC52
     <br>
-    <br>
-    Profesora: MANRIQUE TUNQUE, NERIDA ISABEL
+    <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br>
   </p>
   <p align="left">
     <strong>Integrantes :</strong>
+    <br>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi     U20191E650</strong>
+    <br>
+    <strong>Costa Mondragón, Paulo Sergio               U201912086</strong>
+    <br>
+    <strong>Prieto Crivillero, Bryan Alfredo 	        U201720357</strong>
+    <br>
+    <strong>Simonini Lizonde, Franco Fernando           U202119072</strong>
+
+
     <br>
   </p>
 </div>
