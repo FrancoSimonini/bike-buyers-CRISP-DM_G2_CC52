@@ -1097,7 +1097,7 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 
 <p>
  <a href="https://opensource.org/licenses/MIT">
-  <img src="https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png">
+  <img src="https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png", target="_blank">
  </a>
 </p>
 
