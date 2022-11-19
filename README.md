@@ -31,7 +31,7 @@
 <center><h1>Proyecto - Bike Buyers</h1></center>
 
 
-# Contenidos
+# Tabla de Contenidos
 
 1. [Dataset](#data1)
 
