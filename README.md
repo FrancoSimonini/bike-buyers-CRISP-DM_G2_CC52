@@ -5,7 +5,17 @@
 <br />
 <div align="center">
     <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
-
+    <style>
+        .tab1 {
+            tab-size: 2;
+        }  
+        .tab2 {
+            tab-size: 4;
+        }
+        .tab4 {
+            tab-size: 8;
+        }
+    </style>
   <h3 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h3>
   <p align="center">
     <strong>CC216 - Fundamentos de Data Science</strong>
