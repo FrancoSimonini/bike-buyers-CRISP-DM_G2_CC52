@@ -41,7 +41,7 @@
     2.2. [Objetivos Específicos](#data22)
 3. [Miembros del Grupo](#data3)
 4. [Analisis del Caso de Estudio](#data4)
-5. [Descripción](#data5)
+5. [Descripción del Dataset](#data5)
 6. [Análisis del Dataset](#data6)
 
     6.1. [Cargar los datos](#data61)
@@ -49,11 +49,11 @@
     6.2. [Inspección de los datos](#data62)
 
     6.3. [Preprocesamiento](#data63)
-    
+
     6.4. [Visualización e Interpretación](#data64)
 7. [Métodos a Utilizar](#data5)
 8. [Código](#data7)
-9. [Conclusiones](#data8)
+9. [Conclusiones del Proyecto](#data8)
 10. [Referencias Bibliográficas](#data9)
 11. [Licencia de Uso](#refer)
 
