@@ -6,10 +6,10 @@
 <div align="center">
     <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    UPC
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
