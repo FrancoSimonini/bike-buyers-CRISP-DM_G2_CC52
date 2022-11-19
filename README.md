@@ -22,7 +22,7 @@
     <br>
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi&nbsp;&nbsp;&nbsp;&nbsp;U20191E650</strong>
     <br>
-    <strong>Costa Mondragón, Paulo Sergio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U201912086</strong>
+    <strong>Costa Mondragón, Paulo Sergio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U201912086</strong>
     <br>
     <strong>Prieto Crivillero, Bryan Alfredo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U201720357</strong>
     <br>
