@@ -13,7 +13,7 @@
     <br>
     <strong>Trabajo Final - Grupo 2</strong>
     <br>
-    Seccion - CC52
+    Sección - CC52
     <br>
     <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br>
