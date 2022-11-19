@@ -7,12 +7,6 @@
     <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
 
   <h3 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h3>
-    <style>
-        .tab {
-            display: inline-block;
-            margin-left: 40px;
-        }
-    </style>
   <p align="center">
     <strong>CC216 - Fundamentos de Data Science</strong>
     <br>
@@ -34,6 +28,7 @@
     <strong>Prieto Crivillero, Bryan Alfredo 	                U201720357</strong>
     <br>
     <strong>Simonini Lizonde, Franco Fernando                   U202119072</strong>
+    <pre tab-size=8>This is a    tab    with 8 spaces.</pre>
 
   </p>
 </div>
