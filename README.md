@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo" width="100" height="100",align="center">
+    <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
 
   <h3 align="center">Best-README-Template</h3>
 
