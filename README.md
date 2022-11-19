@@ -4,8 +4,8 @@
 <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300", align="left">
 </div>
 <div style="float: right; width: 50%;">
-<p style="margin: 0; padding-top: 22px; text-align:right;">M2.851 - Tipología y ciclo de vida de los datos aula 1 · Práctica 1</p>
-<p style="margin: 0; text-align:right;">2018 · Máster universitario en Ciencia de datos (Data science)</p>
+<p style="margin: 0; padding-top: 22px; text-align:right;">Universidad Peruana de Ciencias Aplicadas - UPC</p>
+<p style="margin: 0; text-align:right;">Fundamentos de Data Science - TF</p>
 <p style="margin: 0; text-align:right;">Prof. Colaboradora: <b>Mireia Calvo Gonzalez</b></p>
 <p style="margin: 0; text-align:right; padding-button: 100px;">Alumno: <b>Fernando Antonio Barbeiro Campos</b> - <a href="">fbarbeiro@uoc.edu</a></p>
 </div>
