@@ -1094,7 +1094,6 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 
 ### MIT LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-MIT License
 
 Copyright (c) 2022 FrancoSimonini
 
