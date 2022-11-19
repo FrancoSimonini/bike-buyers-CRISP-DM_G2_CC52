@@ -26,7 +26,6 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi
     <span class="tab"></span>U20191E650</strong>
     <br>
