@@ -33,33 +33,31 @@
 
 # Tabla de Contenidos
 
-1. [Dataset](#data1)
+1. [Introducción](#data1)
 
-2. [Integración y selección de los datos de interés a analizar.](#data2)
+2. [Objetivos.](#data2)
+    2.1. [Objetivos del Proyecto](#data21)
 
-3. [Limpieza de los datos.](#data3)
-    
-    3.1. [¿Los datos contienen ceros o elementos vacíos? ¿Cómo gestionarías cada uno de estos casos?](#data31)
-    
-    3.2. [Identificación y tratamiento de valores extremos.](#data32)
-    
-    
-4. [Análisis de los datos.](#data4)
+    2.2. [Objetivos Específicos](#data22)
 
-    4.1. [Selección de los grupos de datos que se quieren analizar/comparar (planificación de los análisis a aplicar).](#data41)
-    
-    4.2. [Comprobación de la normalidad y homogeneidad de la varianza.](#data42)
-    
-    4.3. [Aplicación de pruebas estadísticas para comparar los grupos de datos. En función de los datos y el objetivo del estudio, aplicar pruebas de contraste de hipótesis, correlaciones, regresiones, etc.](#data43)
-    
-    
-5. [Representación de los resultados a partir de tablas y gráficas.](#data5)
+3. [Miembros del Grupo](#data3)
+4. [Analisis del Caso de Estudio](#data4)
+5. [Descripción](#data5)
+
+6. [Análisis del Dataset](#data6)
+    6.1. [Cargar los datos](#data61)
+    6.2. [Inspección los datos](#data62)
+    6.3. [Preprocesamiento](#data63)
+    6.4. [Visualización e Interpretación](#data64)
+
+5. [Métodos a Utilizar](#data5)
 
 6. [Resolución del problema. A partir de los resultados obtenidos, ¿cuáles son las conclusiones? ¿Los resultados permiten responder al problema?](#data6)
 
 7. [Código](#data7)
-
-8. [Referencias](#refer)
+8. [Conclusiones](#data8)
+9. [Referencias](#data9)
+10. [Licencia de Uso](#refer)
 
 ## 1. Dataset <a name="data1"></a>
 *Descripción del dataset. ¿Por qué es importante y qué pregunta/problema pretende responder?*
