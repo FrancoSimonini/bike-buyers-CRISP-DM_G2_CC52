@@ -1,6 +1,4 @@
-
-
-
+<!-- This is a readme for the course of Fundamentals of Data Science course in UPC>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -17,7 +15,7 @@
     <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br>
   </p>
-  <p align="left", size="20">
+  <p align="left">
     <strong>Integrantes :</strong>
     <br>
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi&nbsp;&nbsp;&nbsp;&nbsp;U20191E650</strong>
