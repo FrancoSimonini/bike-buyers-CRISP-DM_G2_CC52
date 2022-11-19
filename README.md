@@ -17,7 +17,7 @@
     <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br>
   </p>
-  <p align="left", size="4">
+  <p align="left", size="20">
     <strong>Integrantes :</strong>
     <br>
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi&nbsp;&nbsp;&nbsp;&nbsp;U20191E650</strong>
