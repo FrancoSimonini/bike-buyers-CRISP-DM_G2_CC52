@@ -9,16 +9,15 @@
   <h3 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h3>
 
   <p align="center">
-    UPC
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <strong>CC216 - Fundamentos de Data Science</strong>
+    <br/>
+    Seccion - CC52
+    <br/>
+    Profesora: MANRIQUE TUNQUE, NERIDA ISABEL
+    <br/>
+    Integrantes:
+    <br/>
+
   </p>
 </div>
 
