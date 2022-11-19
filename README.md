@@ -7,7 +7,12 @@
     <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
 
   <h3 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h3>
-
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
   <p align="center">
     <strong>CC216 - Fundamentos de Data Science</strong>
     <br>
@@ -21,12 +26,7 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <style>
-        .tab {
-            display: inline-block;
-            margin-left: 40px;
-        }
-    </style>
+    
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi
     <span class="tab"></span>U20191E650</strong>
     <br>
