@@ -4,6 +4,7 @@
         <img src="https://lh3.googleusercontent.com/    cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300",align="center">
     </div>
     <bar>
+<div></div>
 <center><h1>Práctica 2 - Limpieza y validación de los datos</h1></center>
 
 
