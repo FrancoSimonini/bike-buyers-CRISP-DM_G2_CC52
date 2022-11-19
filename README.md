@@ -40,7 +40,7 @@
 
     2.2. [Objetivos Específicos](#data22)
 3. [Miembros del Grupo y Roles](#data3)
-4. [Analisis del Caso de Estudio](#data4)
+4. [Análisis del Caso de Estudio](#data4)
 5. [Descripción del Dataset](#data5)
 6. [Análisis del Dataset](#data6)
 
