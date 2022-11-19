@@ -1,6 +1,5 @@
 <!-- This is a readme for the course of Fundamentals of Data Science course in UPC>
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
     <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
     
@@ -30,7 +29,6 @@
 
 <center><h1>Proyecto - Bike Buyers</h1></center>
 
-
 # Tabla de Contenidos
 
 1. [Introducción](#data1)
@@ -56,9 +54,10 @@
 9. [Conclusiones del Proyecto](#data9)
 10. [Referencias Bibliográficas](#refer)
 11. [Licencia de Uso](#data11)
-
+<!-- REVISIONES-->
 <!-- revisado hasta antes de aqui 1 -->
-
+<!-- revisado indexes and subtitles -->
+<!--  -->
 ## 1. Introducción <a name="data1"></a>
 *Descripción del dataset. ¿Por qué es importante y qué pregunta/problema pretende responder?*
 
@@ -1092,4 +1091,7 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 ## 9. Conclusiones del Proyecto<a name="data9"></a>
 ## 10. Referencias Bibliográficas<a name="refer"></a>
 ## 11. Licencia de Uso<a name="data11"></a>
-
+## MIT
+### The MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+`[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
