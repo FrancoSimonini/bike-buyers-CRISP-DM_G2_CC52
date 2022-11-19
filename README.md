@@ -21,13 +21,13 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi     U20191E650</strong>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi             U20191E650</strong>
     <br>
-    <strong>Costa Mondragón, Paulo Sergio               U201912086</strong>
+    <strong>Costa Mondragón, Paulo Sergio                       U201912086</strong>
     <br>
-    <strong>Prieto Crivillero, Bryan Alfredo 	        U201720357</strong>
+    <strong>Prieto Crivillero, Bryan Alfredo 	                U201720357</strong>
     <br>
-    <strong>Simonini Lizonde, Franco Fernando           U202119072</strong>
+    <strong>Simonini Lizonde, Franco Fernando                   U202119072</strong>
 
 
     <br>
