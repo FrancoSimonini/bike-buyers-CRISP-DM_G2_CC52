@@ -1,10 +1,5 @@
 
-<style>
-        .tab {
-            display: inline-block;
-            margin-left: 40px;
-        }
-    </style>
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -26,7 +21,14 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi<span class="tab"></span>U20191E650</strong>
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+    </style>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi
+    <span class="tab"></span>U20191E650</strong>
     <br>
     <strong>Costa Mondragón, Paulo Sergio                       U201912086</strong>
     <br>
