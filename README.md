@@ -17,7 +17,7 @@
     <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br>
   </p>
-  <p align="left">
+  <p align="left", size="4">
     <strong>Integrantes :</strong>
     <br>
     <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi&nbsp;&nbsp;&nbsp;&nbsp;U20191E650</strong>
@@ -28,12 +28,6 @@
     <br>
     <strong>Simonini Lizonde, Franco Fernando&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U202119072</strong>
   </p>
-    <font size="1"> This is my text number1</font> 
-    <font size="2"> This is my text number 2 </font>
-    <font size="3"> This is my text number 3</font> 
-    <font size="4"> This is my text number 4</font> 
-    <font size="5"> This is my text number 5</font> 
-    <font size="6"> This is my text number 6</font>
 </div>
 
 <center><h1>Práctica 2 - Limpieza y validación de los datos</h1></center>
