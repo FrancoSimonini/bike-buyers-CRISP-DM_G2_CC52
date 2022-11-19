@@ -20,29 +20,13 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi
-    <span class="tab"></span>U20191E650</strong>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi&nbsp;&nbsp;&nbsp;&nbsp;U20191E650</strong>
     <br>
-    <strong>Costa Mondragón, Paulo Sergio                       U201912086</strong>
+    <strong>Costa Mondragón, Paulo Sergio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U201912086</strong>
     <br>
-    <strong>Prieto Crivillero, Bryan Alfredo 	                U201720357</strong>
+    <strong>Prieto Crivillero, Bryan Alfredo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U201720357</strong>
     <br>
-    <strong>Simonini Lizonde, Franco Fernando                   U202119072</strong>
-    <style>
-        .tab1 {
-            tab-size: 2;
-        }  
-        .tab2 {
-            tab-size: 4;
-        }
-        .tab4 {
-            tab-size: 8;
-        }
-    </style>
-    <pre class="tab1">This is a &nbsp;&nbsp;&nbsp;&nbsp; tab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with 2 spaces.</pre>
-    <pre class="tab2">This is a    tab    with 4 spaces.</pre>
-    <pre class="tab4">This is a    tab    with 8 spaces.</pre>
-
+    <strong>Simonini Lizonde, Franco Fernando&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;U202119072</strong>
   </p>
 </div>
 
