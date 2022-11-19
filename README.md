@@ -11,16 +11,17 @@
   <p align="center">
     <strong>CC216 - Fundamentos de Data Science</strong>
     <br>
-    <strong>CC216 - Fundamentos de Data Science</strong>
+    <strong>Trabajo Final - Grupo 2</strong>
     <br>
     Seccion - CC52
     <br>
     <br>
-    <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
+    Profesora: MANRIQUE TUNQUE, NERIDA ISABEL
     <br>
-    Integrantes :
+  </p>
+  <p align="left">
+    <strong>Integrantes :</strong>
     <br>
-
   </p>
 </div>
 
