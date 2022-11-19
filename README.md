@@ -10,14 +10,16 @@
 
   <p align="center">
     <strong>CC216 - Fundamentos de Data Science</strong>
-    <br/>
+    <br>
+    <strong>CC216 - Fundamentos de Data Science</strong>
+    <br>
     Seccion - CC52
-    <br/>
-    <br/>
+    <br>
+    <br>
     <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
-    <br/>
-    Integrantes:
-    <br/>
+    <br>
+    Integrantes :
+    <br>
 
   </p>
 </div>
