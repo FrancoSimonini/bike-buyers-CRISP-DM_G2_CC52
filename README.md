@@ -21,7 +21,7 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi\tU20191E650</strong>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi<bar>U20191E650</strong>
     <br>
     <strong>Costa Mondragón, Paulo Sergio                       U201912086</strong>
     <br>
