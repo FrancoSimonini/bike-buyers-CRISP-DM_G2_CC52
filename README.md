@@ -1095,11 +1095,7 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 ### MIT LICENSE
 
 
-[   {:.foo {
-        text-align: center;
-        width: 100px;
-    }}
-    ![License: MIT](https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png
+[![License: MIT](https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png
 )](https://opensource.org/licenses/MIT)  
 Copyright (c) 2022 FrancoSimonini
 
