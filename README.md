@@ -21,7 +21,7 @@
   <p align="left">
     <strong>Integrantes :</strong>
     <br>
-    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi             U20191E650</strong>
+    <strong>Arquiñigo Jacinto, Ibrahim Imanol Jordi\tU20191E650</strong>
     <br>
     <strong>Costa Mondragón, Paulo Sergio                       U201912086</strong>
     <br>
@@ -29,8 +29,6 @@
     <br>
     <strong>Simonini Lizonde, Franco Fernando                   U202119072</strong>
 
-
-    <br>
   </p>
 </div>
 
