@@ -34,7 +34,7 @@
 # Tabla de Contenidos
 
 1. [Introducción](#data1)
-2. [Objetivos.](#data2)
+2. [Objetivos](#data2)
 
     2.1. [Objetivos del Proyecto](#data21)
 
@@ -51,11 +51,11 @@
     6.3. [Preprocesamiento](#data63)
 
     6.4. [Visualización e Interpretación](#data64)
-7. [Métodos a Utilizar](#data5)
-8. [Código](#data7)
-9. [Conclusiones del Proyecto](#data8)
-10. [Referencias Bibliográficas](#data9)
-11. [Licencia de Uso](#refer)
+7. [Métodos a Utilizar](#data7)
+8. [Código](#data8)
+9. [Conclusiones del Proyecto](#data9)
+10. [Referencias Bibliográficas](#refer)
+11. [Licencia de Uso](#data11)
 
 <!-- revisado hasta antes de aqui 1 -->
 
@@ -215,8 +215,10 @@ summary(df)
      (Other)    :186           
 
 
-## 2. Integración y selección de los datos de interés a analizar<a name="data2"></a>
+## 2. Objetivos<a name="data2"></a>
 
+### 2.1. Objetivos del Proyecto<a name="data21"></a>
+### 2.2. Objetivos Específicos<a name="data22"></a>
 
 Dando un poco más de contexto en la selección de variables: debemos escoger un grupo de variables originales (también llamadas características o atributos desde el mundo del machine learning) que contenga la mayor parte de la información relevante para resolver el problema a tratar. Existen muchas metodologías y es un campo de investigación muy importante [1] *(Stanczyk y Jain, 2014)*.
 
@@ -260,9 +262,8 @@ head(df)
 
 
 
-## 3. Limpieza de los datos<a name="data3"></a>
+## 3. Miembros del Grupo y Roles<a name="data3"></a>
 
-### 3.1. ¿Los datos contienen ceros o elementos vacíos? ¿Cómo gestionarías cada uno de estos casos?<a name="data31"></a>
 
 
 ```R
@@ -410,7 +411,6 @@ Finalmente, he explicado porque no he utilizado la estrategia de eliminar los ca
 
 Con esto, queda claro que la adopción de media como valores vacios atende el *trade-off* de sencillez en su implementación y añade algunas características interesantes como la utilización de alguna medida calculada del propio dataset.
 
-### 3.2. Identificación y tratamiento de valores extremos<a name="data32"></a>
 
 La verdad es que, mismo antes de seguir con el análisis si hay o no valores extremos (*outliers*) queda evidente que hay pocas posibilidades de haber muchos problemas, dado que tenemos simplemente 2 columnas con valores propiamente numéricos. Eso porque aunque **Survived** y **Pclass** son *numeric*, toman valores finitos, por lo que no pueden considerarse variables contínuas y deben factorizarse - abajo lo hacemos antes de empezar la identificación de extremos.
 
@@ -765,9 +765,8 @@ Como en algunas ocasiones, la información tiene un poco de *ruido*, nos interes
 
 Otras aproximaciones y tecnicas también podrían estar empleadas aquí, como *Regression* u *Outlier Analysis*, sin embargo, la que haría más sentido para lo que buscamos es sin duda el *Binning*.
 
-## 4. Análisis de los datos<a name="data4"></a>
+## 4. Analisis del Caso de Estudio<a name="data4"></a>
 
-### 4.1. Selección de los grupos de datos que se quieren analizar/comparar (planificación de los análisis a aplicar)<a name="data41"></a>
 
 
 ```R
@@ -809,8 +808,6 @@ print(paste("Tercera clase: ", nrow(df.third_class)))
     [1] "Tercera clase:  469"
 
 
-### 4.2. Comprobación de la normalidad y homogeneidad de la varianza<a name="data42"></a>
-
 Honestamente, con el dataset y las informaciones que hemos elegido para trabajar (grande parte de ellas son categóricas), creo que las comprobaciones de varianza que se busca en el item 4.2 no se aplican para el escenario. Sin embargo, haré aún así algunas comprobaciones con el único atributo numérico y continuo que queda.
 
 
@@ -843,7 +840,6 @@ pvalue_A
 En el test de Shapiro-Wilk, cuando P r(D) ≥ α entonces se acepta la hipótesis nula, existe
 normalidad. El valor p del test de Shapiro ha dado para Age 7.57. Por tanto, no se rechaza la hipótesis nula de normalidad. Asumimos que la muestra sigue una distribución normal.
 
-### 4.3. Aplicación de pruebas estadísticas para comparar los grupos de datos. En función de los datos y el objetivo del estudio, aplicar pruebas de contraste de hipótesis, correlaciones, regresiones, etc.<a name="data43"></a>
 
 
 ```R
@@ -962,7 +958,7 @@ summary(model_titanic)
 
 
 
-## 5. Representación de los resultados a partir de tablas y gráficas<a name="data5"></a>
+## 5. Descripción del Dataset<a name="data5"></a>
 
 
 ```R
@@ -1072,21 +1068,28 @@ cat(mod$rules)
 ![png](output_38_3.png)
 
 
-## 6. Resolución del problema. A partir de los resultados obtenidos, ¿cuáles son las conclusiones? ¿Los resultados permiten responder al problema?<a name="data6"></a>
+## 6. Análisis del Dataset<a name="data6"></a>
 
+### 6.1. Cargar los datos<a name="data61"></a>
+### 6.2. Inspección de los datos<a name="data62"></a>
+### 6.3. Preprocesamiento<a name="data63"></a>
+### 6.4. Visualización e Interpretación<a name="data64"></a>
 
 Analizando nuestro gráfico de árbol, queda claro que independientemente de la clase del pasajero, si su sexo fuera "**Hombre**", su capacidad de sobrevivir era  más pequeña que de una mujer (probabilidad de los hombres como un todo alrededor de 20%).
 
 Es importante resaltar que al elegir las variables, la variable **PClass** tiene más peso sobre las otras (**Age** y **FareBin**). Los pasajeros de la primera y segunda clase tiene un porcentaje más alto de sobrevivir que la tercera. Dicho, si la pasajera de la 3a clase tiene más que 38 años, posiblemente no sobrevivirá. 
 
-## 7. Código<a name="data7"></a>
+## 7. Métodos a Utilizar<a name="data7"></a>
 
 Como he optado por hacer directamente en un Jupyter notebook, todos las partes del código estan presentes en este documento, sin embargo, en el repositorio de Github también es posible encontrar todos los archivos utilizados durante la práctica.
 
-## 8. Referencias<a name="refer"></a>
+## 8. Código<a name="data8"></a>
 
 **[1] Stanczyk, U.; Jain, L. C. (2014)**. *Feature Selection for Data and Pattern Recognition*. Springer.
 
 **[2] Sunil, R. (2016)**. *A Comprehensive Guide to Data Exploration*. Artículo en línea. https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/ Accedido en 02 de Enero de 2019.
 
+## 9. Conclusiones del Proyecto<a name="data9"></a>
+## 10. Referencias Bibliográficas<a name="refer"></a>
+## 11. Licencia de Uso<a name="data11"></a>
 
