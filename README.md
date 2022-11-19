@@ -1,7 +1,7 @@
 
 <div style="width: 100%; clear: both;">
 <div style="float: left; width: 50%;">
-<img src="http://www.uoc.edu/portal/_resources/common/imatges/marca_UOC/UOC_Masterbrand.jpg", align="left">
+<img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300", align="left">
 </div>
 <div style="float: right; width: 50%;">
 <p style="margin: 0; padding-top: 22px; text-align:right;">M2.851 - Tipología y ciclo de vida de los datos aula 1 · Práctica 1</p>
