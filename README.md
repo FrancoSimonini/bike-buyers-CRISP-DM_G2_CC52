@@ -8,7 +8,7 @@
     
   <h1 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h1>
   <p align="center">
-    <strong style="font-size:50px">CC216 - Fundamentos de Data Science</strong>
+    <h2 style="font-size:50px">CC216 - Fundamentos de Data Science</h2>
     <br>
     <strong>Trabajo Final - Grupo 2</strong>
     <br>
