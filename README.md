@@ -50,7 +50,7 @@
 
     6.4. [Visualización e Interpretación](#data64)
 7. [Métodos a Utilizar](#data7)
-8. [Código](#data8)
+8. [Aplicación de la Metodología CRISP-DM](#data8)
 9. [Conclusiones del Proyecto](#data9)
 10. [Referencias Bibliográficas](#refer)
 11. [Licencia de Uso](#data11)
@@ -1080,7 +1080,7 @@ cat(mod$rules)
 
 
 
-## 8. Código<a name="data8"></a>
+## 8. Aplicación de la Metodología CRISP-DM<a name="data8"></a>
 
 
 ## 9. Conclusiones del Proyecto<a name="data9"></a>
