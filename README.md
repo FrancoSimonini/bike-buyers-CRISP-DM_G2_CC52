@@ -13,7 +13,7 @@
     <br/>
     Seccion - CC52
     <br/>
-    Profesora: MANRIQUE TUNQUE, NERIDA ISABEL
+    <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
     <br/>
     Integrantes:
     <br/>
