@@ -38,7 +38,9 @@
     <strong>Prieto Crivillero, Bryan Alfredo 	                U201720357</strong>
     <br>
     <strong>Simonini Lizonde, Franco Fernando                   U202119072</strong>
-    <pre tab-size=8>This is a    tab    with 8 spaces.</pre>
+     <pre class="tab1">This is a    tab    with 2 spaces.</pre>
+    <pre class="tab2">This is a    tab    with 4 spaces.</pre>
+    <pre class="tab4">This is a    tab    with 8 spaces.</pre>
 
   </p>
 </div>
