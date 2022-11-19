@@ -39,7 +39,7 @@
     2.1. [Objetivos del Proyecto](#data21)
 
     2.2. [Objetivos Específicos](#data22)
-3. [Miembros del Grupo](#data3)
+3. [Miembros del Grupo y Roles](#data3)
 4. [Analisis del Caso de Estudio](#data4)
 5. [Descripción del Dataset](#data5)
 6. [Análisis del Dataset](#data6)
@@ -57,7 +57,9 @@
 10. [Referencias Bibliográficas](#data9)
 11. [Licencia de Uso](#refer)
 
-## 1. Dataset <a name="data1"></a>
+<!-- revisado hasta antes de aqui 1 -->
+
+## 1. Introducción <a name="data1"></a>
 *Descripción del dataset. ¿Por qué es importante y qué pregunta/problema pretende responder?*
 
 He elegido el dataset ["**Titanic: Machine Learning from Disaster**" de Kagle](https://www.kaggle.com/c/titanic/overview). 
@@ -115,8 +117,6 @@ summary(df)
 
     [1] "We are evaluating 891 rows of code"
     [1] "Column's names: "
-
-
 
 <ol class=list-inline>
 	<li>'PassengerId'</li>
