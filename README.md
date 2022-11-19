@@ -1093,7 +1093,7 @@ Como he optado por hacer directamente en un Jupyter notebook, todos las partes d
 ## 11. Licencia de Uso<a name="data11"></a>
 
 ### MIT LICENSE
-[![License: MIT](https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png
+[![License: MIT](https://universoabiertoblog.files.wordpress.com/2017/06/mit_license_logo_by_excaliburzero-d9ur2lg.png =500x
 )](https://opensource.org/licenses/MIT)  
 Copyright (c) 2022 FrancoSimonini
 
