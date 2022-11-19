@@ -28,7 +28,7 @@
   </p>
 </div>
 
-<center><h1>Práctica 2 - Limpieza y validación de los datos</h1></center>
+<center><h1>Proyecto - Bike Buyers</h1></center>
 
 
 # Contenidos
