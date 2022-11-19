@@ -39,7 +39,7 @@
             tab-size: 8;
         }
     </style>
-    <pre class="tab1">This is a    tab    with 2 spaces.</pre>
+    <pre class="tab1">This is a \t tab    with 2 spaces.</pre>
     <pre class="tab2">This is a    tab    with 4 spaces.</pre>
     <pre class="tab4">This is a    tab    with 8 spaces.</pre>
 
