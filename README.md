@@ -1078,7 +1078,7 @@ cat(mod$rules)
 
 ## 7. Métodos a Utilizar<a name="data7"></a>
 
-Como he optado por hacer directamente en un Jupyter notebook, todos las partes del código estan presentes en este documento, sin embargo, en el repositorio de Github también es posible encontrar todos los archivos utilizados durante la práctica.
+
 
 ## 8. Código<a name="data8"></a>
 
@@ -1127,3 +1127,7 @@ SOFTWARE.
 Analizando nuestro gráfico de árbol, queda claro que independientemente de la clase del pasajero, si su sexo fuera "**Hombre**", su capacidad de sobrevivir era  más pequeña que de una mujer (probabilidad de los hombres como un todo alrededor de 20%).
 
 Es importante resaltar que al elegir las variables, la variable **PClass** tiene más peso sobre las otras (**Age** y **FareBin**). Los pasajeros de la primera y segunda clase tiene un porcentaje más alto de sobrevivir que la tercera. Dicho, si la pasajera de la 3a clase tiene más que 38 años, posiblemente no sobrevivirá. 
+
+
+
+Como he optado por hacer directamente en un Jupyter notebook, todos las partes del código estan presentes en este documento, sin embargo, en el repositorio de Github también es posible encontrar todos los archivos utilizados durante la práctica.
