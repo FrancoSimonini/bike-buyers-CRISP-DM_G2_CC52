@@ -219,24 +219,9 @@ summary(df)
 
 Dando un poco más de contexto en la selección de variables: debemos escoger un grupo de variables originales (también llamadas características o atributos desde el mundo del machine learning) que contenga la mayor parte de la información relevante para resolver el problema a tratar. Existen muchas metodologías y es un campo de investigación muy importante [1] *(Stanczyk y Jain, 2014)*.
 
-Dado el contexto, queda claro que podemos aquí reducir un poco la dimensionalidad en el ámbito de atributos (columnas) porque hay variables en las cuales detectamos que no aportan mucho para el tipo de conocimiento que necesitamos recolectar. Por ejemplo:
- - el número del **Ticket** de cada persona es bastante irrelevante para extraer un modelo y predecir si la persona ha sobrevivido o no
- - **Embarked** - el puerto donde ha embarcado una persona en el navio tampoco
- - **Cabin** - hay inumeros registros en la columna que no estan rellenados
- 
-Ahora que tenemos un poco más de información sobre el dataset, con el intuito de obtener un modelo significativo, he elegido los siguientes atributos para el análisis:
-- *Survived*
-- *Pclass*
-- *Name*
-- *Sex*
-- *Age*
-- *Fare*
-
-Queda claro que el atributo **Name** tampoco es relevante, pero mantuve por si acaso necesito explicar o hacer alguna comparación de pasajeros (será más sencillo identificar las personas por sus nombres). 
-
-
-Definidos los atributos, antes de seguir para el próximo ejercicio, hago la selección de los datos que vamos a trabajar abajo.
-
+-Analizar el dataset de bike_buyers.csv, usando el lenguaje de programación Python,  junto con las librerías pandas, matplotlib, seaborn y sklearn.
+-Usar la librería de graficación matplotlib y seaborn para graficar los resultados de nuestros datos
+-Usar la librería de sklearn para hacer las operaciones de regresión lineal y regresión logística
 
 ```R
 keeps <- c("Survived", "Pclass", "Name", "Sex", "Age", "Fare")
