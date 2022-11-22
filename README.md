@@ -218,10 +218,19 @@ summary(df)
 ### 2.2. Objetivos Específicos<a name="data22"></a>
 
 Dando un poco más de contexto en la selección de variables: debemos escoger un grupo de variables originales (también llamadas características o atributos desde el mundo del machine learning) que contenga la mayor parte de la información relevante para resolver el problema a tratar. Existen muchas metodologías y es un campo de investigación muy importante [1] *(Stanczyk y Jain, 2014)*.
-
--Analizar el dataset de bike_buyers.csv, usando el lenguaje de programación Python,  junto con las librerías pandas, matplotlib, seaborn y sklearn.
--Usar la librería de graficación matplotlib y seaborn para graficar los resultados de nuestros datos
--Usar la librería de sklearn para hacer las operaciones de regresión lineal y regresión logística
+<div align="center">
+    <img src="https://lh3.googleusercontent.com/cZekUlhBmFloSVLC_i-5D4UeYH0Wzu2UwchEv0jSWVdzmRZVsmvk8XSaRrzvdTj2r-M=w300" alt="Logo",align="center">
+    
+  <p align="left">
+    <strong>Objetivos mas espacificos :</strong>
+    <br>
+    <strong>-Analizar el dataset de bike_buyers.csv, usando el lenguaje de programación Python,  junto con las librerías pandas, matplotlib, seaborn y sklearn.</strong>
+    <br>
+    <strong>-Usar la librería de graficación matplotlib y seaborn para graficar los resultados de nuestros datos</strong>
+    <br>
+    <strong>-Usar la librería de sklearn para hacer las operaciones de regresión lineal y regresión logística</strong>
+  </p>
+</div>
 
 ```R
 keeps <- c("Survived", "Pclass", "Name", "Sex", "Age", "Fare")
