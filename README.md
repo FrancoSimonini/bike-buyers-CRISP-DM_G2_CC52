@@ -124,30 +124,32 @@ summary(df)
 
 
 <dl class=dl-horizontal>
-	<dt>PassengerId</dt>
+	<dt>Id</dt>
 		<dd>'integer'</dd>
-	<dt>Survived</dt>
-		<dd>'integer'</dd>
-	<dt>Pclass</dt>
-		<dd>'integer'</dd>
-	<dt>Name</dt>
-		<dd>'factor'</dd>
-	<dt>Sex</dt>
-		<dd>'factor'</dd>
+	<dt>Marital Status</dt>
+		<dd>'object'</dd>
+	<dt>Gender</dt>
+		<dd>'object'</dd>
+	<dt>Income</dt>
+		<dd>'float'</dd>
+	<dt>Children</dt>
+		<dd>'float'</dd>
+	<dt>Education</dt>
+		<dd>'object'</dd>
+	<dt>Occupation</dt>
+		<dd>'object'</dd>
+	<dt>Home Owner</dt>
+		<dd>'object'</dd>
+	<dt>Cars</dt>
+		<dd>'float'</dd>
+	<dt>Commute Distance</dt>
+		<dd>'object'</dd>
+	<dt>Region</dt>
+		<dd>'object'</dd>
 	<dt>Age</dt>
-		<dd>'numeric'</dd>
-	<dt>SibSp</dt>
-		<dd>'integer'</dd>
-	<dt>Parch</dt>
-		<dd>'integer'</dd>
-	<dt>Ticket</dt>
-		<dd>'factor'</dd>
-	<dt>Fare</dt>
-		<dd>'numeric'</dd>
-	<dt>Cabin</dt>
-		<dd>'factor'</dd>
-	<dt>Embarked</dt>
-		<dd>'factor'</dd>
+		<dd>'float'</dd>
+	<dt>Purchased Bike</dt>
+		<dd>'object'</dd>
 </dl>
 
 
@@ -245,7 +247,41 @@ head(df)
 
 ## 3. Miembros del Grupo y Roles<a name="data3"></a>
 
+<div align="center">
 
+  <h1 align="center">Universidad Peruana de Ciencias Aplicadas - UPC</h1>
+  <p align="center">
+    <strong>CC216 - Fundamentos de Data Science</strong>
+    <br>
+    <strong>Trabajo Final - Grupo 2</strong>
+    <br>
+    Sección - CC52
+    <br>
+    <strong>Profesora: MANRIQUE TUNQUE, NERIDA ISABEL</strong>
+    <br>
+  </p>
+  <p align="left">
+    <strong>Integrantes :</strong>
+    <br>
+    <strong>Prieto Crivillero, Bryan Alfredio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Project Sponsor & Data Engineer</strong>
+	<br>
+	  Mi rol en este proyecto es ser la persona en el nivel de administración senior. Tengo que velar por el proceso exitoso del proyecto y dar la guía necesaria, además de proveer de recursos al equipo de desarrollo y al administrador del proyecto.
+Para hacer mi trabajo, necesito habilidades de organización y liderazgo, también tengo que seleccionar al equipo durante la fase de inicio, y les doy el contexto del proyecto y afirmar la autoridad de mi cargo.
+	<br>
+    	<br>
+   <strong>Costa Mondragón, Paulo Sergioo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Scientist</strong>
+	<br>
+	  Mi principal función como Data Scientist es extraer conocimiento a partir de los dataset para poder responder a las preguntas formuladas en cada proyecto de investigación. A menudo veo datasets inmensas (conocidos como Big Data), y que pueden tener formatos muy diferentes.
+Para poder hacer mi trabajo requiero aplicar las técnicas de análisis, considerando la programación estadística como un punto clave, también uso técnicas de análisis avanzadas, incluyendo el análisis de redes sociales así como el procesamiento de lenguaje natural.
+	<br>
+    	<br>
+    <strong>Simonini Lizonde, Franco Fernando&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Analyst</strong>
+	<br>
+	  Mi principal función como Data Analyst es la recopilación, análisis y entendimiento de los conjuntos de datos o bases de datos. Manejo herramientas como Microsoft Excel, y el lenguaje R, aparte del lenguaje Python para programar las funciones para entender los datos. 
+Aparte de todo eso, hago informes y evaluaciones obtenidas de los datos, desarrollo análisis completos de los datos extraídos y los presento dentro y fuera de mi ambiente de trabajo, comunicando de manera efectiva los resultados obtenidos para que el resto de los trabajadores comprendan dichos datos.
+
+  </p>
+</div>
 
 ```R
 # Como resultado del comando abajo, podemos ver que solamente Age tiene elementos NA
