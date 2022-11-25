@@ -61,7 +61,7 @@
 
 He elegido el dataset ["**Bike_Buyers**" de Kagle](https://www.kaggle.com/c/titanic/overview). 
 <img src="titanic.jpg" alt="Titanic" style="width: 700px;"/>
-<center>Figura 1: Titanic</center>
+<center>Figura 1: Bike Buyers</center>
 <p></p>
 Las variables dadas y su descripción nos dan a conocer el caso de estudio en el cual estamos trabajando, un cliente el cual es vendedor de bicicletas y desea más información acerca de las ventas y los clientes potenciales. 
 Para el vendedor de bicicletas es crucial saber que tipo de personas son potenciales compradores y/o para que otro sector puede dirigir las ventas. Para esto ser posible, los datos obtenidos deben ser revisados, pre-procesados y finalmente ser utilizados para lograr una conclusión la cual deberá ser entregada al vendedor.
