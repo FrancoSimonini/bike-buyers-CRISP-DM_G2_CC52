@@ -59,23 +59,16 @@
 ## 1. Introducción <a name="data1"></a>
 *Descripción del dataset. ¿Por qué es importante y qué pregunta/problema pretende responder?*
 
-He elegido el dataset ["**Titanic: Machine Learning from Disaster**" de Kagle](https://www.kaggle.com/c/titanic/overview). 
+He elegido el dataset ["**Bike_Buyers**" de Kagle](https://www.kaggle.com/c/titanic/overview). 
 <img src="titanic.jpg" alt="Titanic" style="width: 700px;"/>
 <center>Figura 1: Titanic</center>
 <p></p>
-La información presente en el dataset són datos sobre cada pasajero del famoso naufragio, si la persona sobrevivió o no, su sexo, tipo de cabina que estaba, entre otros.
-
-Aunque hubo algún elemento de suerte involucrado en sobrevivir al hundimiento, algunos grupos de personas tenían más probabilidades de sobrevivir que otros, como las mujeres, los niños y la clase alta.
-
-Justamente, el problema que buscamos a contestar es precisamente esto: hacer el análisis de **¿qué tipos de personas podrían sobrevivir?**
-
-
-Aún hablando un poco sobre el dataset, vamos a mirar un poco más de información sobre el mismo:
-
+Las variables dadas y su descripción nos dan a conocer el caso de estudio en el cual estamos trabajando, un cliente el cual es vendedor de bicicletas y desea más información acerca de las ventas y los clientes potenciales. 
+Para el vendedor de bicicletas es crucial saber que tipo de personas son potenciales compradores y/o para que otro sector puede dirigir las ventas. Para esto ser posible, los datos obtenidos deben ser revisados, pre-procesados y finalmente ser utilizados para lograr una conclusión la cual deberá ser entregada al vendedor.
 
 ```R
 # Objetivo: Asegurar que estamos trabajando con el formato en ingles separado por comas
-L <- readLines("train.csv", n = 1)
+L <- readLines("bike_buyers.csv", n = 1)
 if (grepl(",", L)) print("File has an English format")
 ```
 
@@ -85,7 +78,7 @@ if (grepl(",", L)) print("File has an English format")
 
 ```R
 # Como estamos trabajando con ficheros separados por commas, vamos a mirar un poco de datos
-df <- read.csv("train.csv")
+df <- read.csv("bike_buyers.csv")
 head(df)
 
 # Mirando los nombres de columnas del dataframe y los tipos de variables y informacion adicional
@@ -98,36 +91,33 @@ summary(df)
 ```
 
 
-<table>
-<thead><tr><th scope=col>PassengerId</th><th scope=col>Survived</th><th scope=col>Pclass</th><th scope=col>Name</th><th scope=col>Sex</th><th scope=col>Age</th><th scope=col>SibSp</th><th scope=col>Parch</th><th scope=col>Ticket</th><th scope=col>Fare</th><th scope=col>Cabin</th><th scope=col>Embarked</th></tr></thead>
-<tbody>
-	<tr><td>1                                                  </td><td>0                                                  </td><td>3                                                  </td><td>Braund, Mr. Owen Harris                            </td><td>male                                               </td><td>22                                                 </td><td>1                                                  </td><td>0                                                  </td><td>A/5 21171                                          </td><td> 7.2500                                            </td><td>                                                   </td><td>S                                                  </td></tr>
-	<tr><td>2                                                  </td><td>1                                                  </td><td>1                                                  </td><td>Cumings, Mrs. John Bradley (Florence Briggs Thayer)</td><td>female                                             </td><td>38                                                 </td><td>1                                                  </td><td>0                                                  </td><td>PC 17599                                           </td><td>71.2833                                            </td><td>C85                                                </td><td>C                                                  </td></tr>
-	<tr><td>3                                                  </td><td>1                                                  </td><td>3                                                  </td><td>Heikkinen, Miss. Laina                             </td><td>female                                             </td><td>26                                                 </td><td>0                                                  </td><td>0                                                  </td><td>STON/O2. 3101282                                   </td><td> 7.9250                                            </td><td>                                                   </td><td>S                                                  </td></tr>
-	<tr><td>4                                                  </td><td>1                                                  </td><td>1                                                  </td><td>Futrelle, Mrs. Jacques Heath (Lily May Peel)       </td><td>female                                             </td><td>35                                                 </td><td>1                                                  </td><td>0                                                  </td><td>113803                                             </td><td>53.1000                                            </td><td>C123                                               </td><td>S                                                  </td></tr>
-	<tr><td>5                                                  </td><td>0                                                  </td><td>3                                                  </td><td>Allen, Mr. William Henry                           </td><td>male                                               </td><td>35                                                 </td><td>0                                                  </td><td>0                                                  </td><td>373450                                             </td><td> 8.0500                                            </td><td>                                                   </td><td>S                                                  </td></tr>
-	<tr><td>6                                                  </td><td>0                                                  </td><td>3                                                  </td><td>Moran, Mr. James                                   </td><td>male                                               </td><td>NA                                                 </td><td>0                                                  </td><td>0                                                  </td><td>330877                                             </td><td> 8.4583                                            </td><td>                                                   </td><td>Q                                                  </td></tr>
-</tbody>
-</table>
+|index|ID|Marital Status|Gender|Income|Children|Education|Occupation|Home Owner|Cars|Commute Distance|Region|Age|Purchased Bike|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|0|12496|Married|Female|40000\.0|1\.0|Bachelors|Skilled Manual|Yes|0\.0|0-1 Miles|Europe|42\.0|No|
+|1|24107|Married|Male|30000\.0|3\.0|Partial College|Clerical|Yes|1\.0|0-1 Miles|Europe|43\.0|No|
+|2|14177|Married|Male|80000\.0|5\.0|Partial College|Professional|No|2\.0|2-5 Miles|Europe|60\.0|No|
+|3|24381|Single|NaN|70000\.0|0\.0|Bachelors|Professional|Yes|1\.0|5-10 Miles|Pacific|41\.0|Yes|
+|4|25597|Single|Male|30000\.0|0\.0|Bachelors|Clerical|No|0\.0|0-1 Miles|Europe|36\.0|Yes|
 
 
 
-    [1] "We are evaluating 891 rows of code"
+    [1] "We are evaluating 1000rows of code"
     [1] "Column's names: "
 
 <ol class=list-inline>
-	<li>'PassengerId'</li>
-	<li>'Survived'</li>
-	<li>'Pclass'</li>
-	<li>'Name'</li>
-	<li>'Sex'</li>
+	<li>'Id'</li>
+	<li>'Marital Status'</li>
+	<li>'Gender'</li>
+	<li>'Income'</li>
+	<li>'Children'</li>
+	<li>'Education'</li>
+	<li>'Occupation'</li>
+	<li>'Home Owner'</li>
+	<li>'Cars'</li>
+	<li>'Commute Distance'</li>
+	<li>'Region'</li>
 	<li>'Age'</li>
-	<li>'SibSp'</li>
-	<li>'Parch'</li>
-	<li>'Ticket'</li>
-	<li>'Fare'</li>
-	<li>'Cabin'</li>
-	<li>'Embarked'</li>
+	<li>'Purchased Bike'</li>
 </ol>
 
 
